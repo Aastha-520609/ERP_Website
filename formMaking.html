@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_formMaking.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <div class="regform"><h1>Create Your Account</h1></div>
+    <div class="main">
+        <form>
+            <div id="Name">
+                <h2 class="name">Name</h2>
+                <input class="firstName" type="text" name="first_name">
+                <label class="firstLabel">First Name</label>
+                <input class="lastName" type="text" name="last_name">
+                <label class="lastLabel">Last Name</label>  
+            </div>
+
+            <h2 class="name">Email</h2>
+            <input class="email_id" type="text" name="email">
+
+            <h2 class="name">Password</h2>
+            <input class="pass_id" type="password" name="pwd">
+
+            <h2 class="name">Confirm-Password</h2>
+            <input class="pass_id" type="password" name="pwd">
+
+            <h2 class="name">Phone</h2>
+            <input class="code" type="text" name="area_code">
+            <label class="area-code">Area Code</label>
+            <input class="number" type="text" name="phone">
+            <label class="phone-number">Phone Number</label>
+
+            <p class="age">Please select your age group:</p>
+            <input class= "age_label" type="radio" name="age">
+            <label class= "age_label">18 - 35</label>
+            <input class= "age_label" type="radio"  name="age">
+            <label class= "age_label">36 - 60</label><br>
+            
+            <p class="age">Please select your Gender:</p>
+            <input class= "age_label" type="radio" name="age">
+            <label class= "age_label">Male</label>
+            <input class= "age_label" type="radio"  name="age">
+            <label class= "age_label">Female</label>
+            <input class= "age_label" type="radio"  name="age">
+            <label class= "age_label">Others</label><br>
+
+            <h2 class="name">Worktypes</h2>
+            <select class="option" name="subject" >
+                <option disabled="disabled"  selected="selected">choose option</option>
+                <option value="">Labour</option>
+                <option value="">Nurse</option>
+                <option value="">Wardboys</option>
+                <option value="">Swipper</option>
+                <option value="">Plumbers</option>
+                <option value="">Gardener</option>
+                <option value="">Sanitation Workers</option>
+            </select>
+            <h2 class="name">Address</h2>
+            <input class="email_id" type="text" name="address">
+
+            <button type="submit">Register</button>
+
+            <p class="age">Already have an account? &nbsp <a href="regform.html"> LOGIN</a></p> 
+            
+        </form>
+    </div>
+    
+
+</body>
+</html>

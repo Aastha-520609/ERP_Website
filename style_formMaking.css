@@ -1,0 +1,162 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background: linear-gradient(120deg,purple, hsl(282, 44%, 47%));
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+}
+.regform{
+    width: 900px;
+    background-color: rgb(46, 43, 43);
+    margin: auto;
+    color: white ;
+    text-align: center;
+    padding-top: 2%;
+    margin-top: 1%;
+    padding-bottom: 1% ;
+    border-radius: 15px 15px 0% 0%;
+}
+.main{
+    background-color: gray;
+    margin:auto;
+    width: 900px;   
+}
+form{
+    padding: 1%;
+}
+#name{
+    width: 100%;
+    height: 100px;
+}
+.name{
+    margin-left: 25px;
+    margin-top:30px;
+    width: 125px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+.firstName{
+    position: relative;
+    left: 150px;
+    top:-37px;
+    line-height: 35px;
+    border-radius: 6px;
+    padding:0px 22px;
+    font-size: 16px;
+}
+.lastName{
+    position: relative;
+    left:150px;
+    top:-37px;
+    line-height: 35px;
+    border-radius: 6px;
+    padding:0px 22px;
+    font-size: 16px;
+}
+.firstLabel{
+    position:relative;
+    color:orange;
+    text-transform: capitalize;
+    font-size: 14px;
+    right:20px;
+    top:-5px;
+}
+.lastLabel{
+    position:relative;
+    color:orange;
+    text-transform: capitalize;
+    font-size: 14px;
+    right:20px;
+    top:-5px;
+}
+.email_id{
+    position: relative;
+    left: 150px;
+    top:-37px;
+    line-height: 35px;
+    border-radius: 6px;
+    padding:0px 170px;
+    font-size: 16px;
+}
+.pass_id{
+    position: relative;
+    left: 150px;
+    top:-37px;
+    line-height: 30px;
+    border-radius: 6px;
+    padding:0px 80px;
+    font-size: 16px;
+}
+.code{
+    position: relative;
+    left: 150px;
+    top:-37px;
+    line-height: 30px;
+    border-radius: 6px;
+    padding:0px 3px ;
+    font-size: 16px;
+}
+.number{
+    position: relative;
+    left: 150px;
+    top:-37px;
+    line-height: 30px;
+    border-radius: 6px;
+    padding:0px 38px ;
+    font-size: 16px;
+}
+.area-code{
+    position: relative;
+    color:orange;
+    top:-5px;
+    font:14px;
+}
+.phone-number{
+    position: relative;
+    color:orange;
+    top:-5px;
+    font:14px;
+    right:40px;
+}
+.option{
+    position: relative;
+    left: 150px;
+    top:-25px;
+    line-height: 30px;
+    border-radius: 6px;
+    padding:5px 350px 5px 5px;
+    font-size: 16px;
+}
+
+button{
+    color: orangered;
+    display: block;
+    margin-top:2%;
+    margin-left: 42%;
+    padding: 1% 6% 1% 6%;
+    font-size: 18px;
+    border-radius:6px ;
+}
+.age{
+    margin-left: 25px;
+    margin-top:25px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+.age_label{
+    margin-left: 150px;
+    margin-top:15px;
+    color:white;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+input[type="radio"] {
+    margin-right: -130px;
+  }
+

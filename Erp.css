@@ -1,0 +1,316 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow-x: hidden;
+}
+.header{
+    margin-top: 15px;
+    padding: 5px 25px;
+    text-align: right;
+}
+p, .heading{
+    text-align: left;
+    font-size: 35px;
+    margin-bottom: -60px;
+    color: purple;
+}
+
+/* START OF BUTTON */
+.header a{
+   display: inline-block;
+   border: 1px solid purple;
+   border-radius: 20px;
+   padding: 10px 24px;
+   font-size: 13px;
+   text-decoration: none;
+   position: relative;
+   cursor:pointer;
+   background: transparent;
+   color: blueviolet;
+   font-weight: 550;
+}
+.header a:hover{
+    border: 1px solid  rgb(141, 10, 141);
+    background: rgb(141, 10, 141); 
+    color: white;
+    transition: 1s;
+}
+/* END OF BUTTON */
+/* Start of navlinks */
+.navlinks{
+    background-color: gray;
+    padding: 15px 10px;
+}
+.navlinks ul li{
+    list-style: none;
+    display:inline-block;
+    padding-top: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    font-size: 18px; 
+    color: rgb(182, 10, 182);
+    margin-top:5px;
+    margin-left: 20px;
+   }
+.navlinks ul li a{
+    text-decoration: none;
+    color: white;
+}  
+.navlinks ul li::after{
+    content: '';
+    width:0%;
+    height: 2px;
+    background: purple;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.navlinks ul li:hover::after
+{
+    width: 100%;
+} 
+#employers{
+    border: 1px solid purple;
+    border-radius: 5px;
+    margin-left: 780px;
+    padding: 10px 24px;
+    font-size: 15px;
+    cursor:pointer;  
+    text-decoration: none;
+}
+#employers a:hover{
+    border: 2px solid  rgb(141, 10, 141);
+    background: rgb(141, 10, 141); 
+    color: white;
+    transition: 1s;
+} 
+/* End of navlinks */
+/* Start of search box */
+.Search-box{
+    background-color: purple;
+    padding: 95px;
+    text-align: center;
+}
+.Search{
+  margin: 10px 0px;
+  padding: 20px 250px 20px 15px;
+}
+input[type='text']::placeholder{
+    text-align: left;
+}
+/* end of search box */
+/* Start of about */
+ #About{
+    background-color: gray;
+}
+.AboutUS{
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.AboutUS-col{
+    flex-basis: 21%;
+    background-color: rgb(136, 7, 136);
+    border-radius: 15px;
+    padding: 15px 12px;
+    box-sizing: border-box;
+    color: whitesmoke;
+    padding-top: 10px;
+}
+.AboutUS-col:hover{
+    box-shadow: 0 0 20px 0px black;
+}
+.fa {
+    color: black;
+    size: 164px;
+}
+h3{
+    font-size: 16px;
+    padding-top: 8px;
+}
+/* End of about */
+/* Start of table */
+table{
+    font-family: Arial,  sans-serif;
+    width: 100%;
+    background-color: purple;
+    border-collapse: collapse;
+    color: white;
+    font-size: 15px;
+}
+td, th {
+    border: 0.2px solid #dddddd;
+    text-align: left;
+    padding: 18px;
+  }
+  tr:nth-child(even) {
+    background-color: gray;
+  }
+  table .tab{
+      color: black;
+      font-weight: 800;
+  }
+  h1{
+      text-align: center;
+      padding: 55px;
+      font-weight: 900;
+      background-color: purple;
+      font-style: italic;
+  }
+  h1:hover{
+      color: orange;
+  }
+  h2{
+      color: orange;
+      font-size: 20px;
+      font-weight: 500;
+      background-color: black;
+      padding-top: 50px;
+      padding-left: 10px;
+      padding-bottom: 1px;
+  }
+/* End of table */
+/* start of feautered */
+.featured{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 60px;
+}
+.box{
+    border: 1px transparent gray;
+    border-radius: 10px;
+    text-align: center;
+    padding: 35px 32px ;
+    background: linear-gradient(180deg, rgb(209, 11, 196) 0 50%, rgba(235, 218, 233, 0.767) 50% 100%);
+}
+.image{
+    height: 100px;
+    width: 150px;
+    border-radius: 100%;
+}
+p{
+    text-align: center;
+    padding: 12px 24px;
+    margin: 20px;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+h4{
+    margin-top: 15px;
+}
+.box:hover{
+    box-shadow: 0 0 20px 0px rgb(36, 35, 35,0.5);
+}
+h4:hover{
+  color: plum;
+}
+/* end of featured */
+
+/* Start of contact us  */
+.bottom{
+    background-color: gray;
+}
+.Contact-Us{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 60px;
+    text-align: center;   
+}
+.contact{
+    border: 1px transparent gray;
+    padding: 35px 32px ;
+}
+.contact ul li{
+    list-style: none;
+}
+h5{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+h5:hover{
+    color: orange;
+}
+.icon{
+   margin-top: -63px;
+   text-align: center;
+   font-size: 30px;
+   padding-bottom: 30px;
+   border-bottom: 5px solid purple;
+}
+#bottom{
+    border-bottom: 2px solid black;  
+    margin-top: 7px;
+}
+/* end of contact us*/
+
+/* Start of search box of jobs we offer */
+.Search-box-J{
+    background-color: purple;
+    text-align: center;
+    padding-bottom: 15px;
+    margin-top: -25px;
+}
+.Search-J{
+    margin: 15px 0px;
+    padding: 20px 250px 20px 15px;
+  }
+input[type='text']::placeholder{
+    text-align: left;
+}
+/* end of search box of jobs we offer */
+
+.picture{
+    background-image: url('https://static8.depositphotos.com/1327777/804/i/950/depositphotos_8045639-stock-photo-labourer.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 380px; 
+}
+.box-pic{
+    position: absolute;
+    right: 0;
+    width: 700px;
+    height: 500px;
+    border: 3px transparent purple;
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+}
+.motive{
+    border: 2px transparent red;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 700;
+}
+.line{
+    border-left: 4px solid black;
+    height: 100px;
+    position: relative;
+    left: 50%;
+}
+.get{
+    border: 2px transparent red;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 700;
+}
